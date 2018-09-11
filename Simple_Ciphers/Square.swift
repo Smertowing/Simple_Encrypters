@@ -46,7 +46,7 @@ class Square: NSViewController {
         alert.messageText = question
         alert.informativeText = text
         alert.alertStyle = .critical
-        alert.addButton(withTitle: "OK")
+        alert.addButton(withTitle: "Ok")
         alert.runModal()
     }
     
