@@ -1,5 +1,5 @@
 //
-//  CardanGrille.swift
+//  Square.swift
 //  Simple_Ciphers
 //
 //  Created by Kiryl Holubeu on 9/10/18.
