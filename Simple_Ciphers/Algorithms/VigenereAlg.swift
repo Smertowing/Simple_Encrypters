@@ -48,7 +48,6 @@ class VigenereAlg {
             let indexInAlphabet = indexOfAlphabet(forCharacter: character)
             
             if indexInAlphabet == -1 {
-            //    encryptedText.append(character)
                 continue
             }
             
@@ -79,7 +78,6 @@ class VigenereAlg {
             let indexInAlphabet = indexOfAlphabet(forCharacter: character)
             
             if indexInAlphabet == -1 {
-            //    decryptedText.append(character)
                 continue
             }
             

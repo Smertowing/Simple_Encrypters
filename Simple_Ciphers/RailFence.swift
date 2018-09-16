@@ -58,6 +58,7 @@ class RailFence: NSViewController {
     
     @IBAction func encodeBtn(_ sender: Any) {
         messageText = (originalMessageField.stringValue.uppercased()).filter { return latinAlphabet.contains($0) }
+        originalMessageField.stringValue = messageText
         if messageText == "" {
             dialogError(question: "Your message is an empty!", text: "Error: Nothing to encode.")
             return
@@ -70,13 +71,16 @@ class RailFence: NSViewController {
             return
         }
         
+
         let railFence = RailFenceAlg(key:keyword)
         cipherText = railFence.encrypt(messageText: messageText)
+        
         encryptedMessageField.stringValue = cipherText
     }
     
     @IBAction func decodeBtn(_ sender: Any) {
         cipherText = (encryptedMessageField.stringValue.uppercased()).filter { return latinAlphabet.contains($0) }
+        encryptedMessageField.stringValue = cipherText
         if cipherText == "" {
             dialogError(question: "Your encrypted message is an empty!", text: "Error: Nothing to decode.")
             return
@@ -91,6 +95,7 @@ class RailFence: NSViewController {
         
         let railFence = RailFenceAlg(key:keyword)
         messageText = railFence.decrypt(encryptedText: cipherText)
+        
         originalMessageField.stringValue = messageText
     }
     
