@@ -48,6 +48,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F30016B3214F7BDC00910DD6 /* View Comtrollers */ = {
+			isa = PBXGroup;
+			children = (
+				F33DE31E2145899B005C26D1 /* ViewController.swift */,
+				F34E9F3121462CC0003F582B /* Vigenere.swift */,
+				F34E9F3521463134003F582B /* Square.swift */,
+				F34E9F3321463123003F582B /* RailFence.swift */,
+			);
+			path = "View Comtrollers";
+			sourceTree = "<group>";
+		};
 		F33DE3102145899B005C26D1 = {
 			isa = PBXGroup;
 			children = (
@@ -69,12 +80,9 @@
 			children = (
 				F34E9F3721466116003F582B /* MyApplication.swift */,
 				F33DE31C2145899B005C26D1 /* AppDelegate.swift */,
-				F33DE31E2145899B005C26D1 /* ViewController.swift */,
 				F33DE320214589A1005C26D1 /* Assets.xcassets */,
 				F33DE322214589A1005C26D1 /* Main.storyboard */,
-				F34E9F3121462CC0003F582B /* Vigenere.swift */,
-				F34E9F3321463123003F582B /* RailFence.swift */,
-				F34E9F3521463134003F582B /* Square.swift */,
+				F30016B3214F7BDC00910DD6 /* View Comtrollers */,
 				F34E9F262145A965003F582B /* Algorithms */,
 				F33DE325214589A1005C26D1 /* Info.plist */,
 				F33DE326214589A1005C26D1 /* Simple_Ciphers.entitlements */,
