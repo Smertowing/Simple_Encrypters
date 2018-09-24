@@ -35,8 +35,6 @@ class Square: NSViewController {
                 path = result!.path
                 return path
             }
-        } else {
-            return ""
         }
         return ""
     }

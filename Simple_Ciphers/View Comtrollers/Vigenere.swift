@@ -37,9 +37,7 @@ class Vigenere: NSViewController {
                 path = result!.path
                 return path
             }
-        } else {
-            return ""
-        }
+        } 
         return ""
     }
     
