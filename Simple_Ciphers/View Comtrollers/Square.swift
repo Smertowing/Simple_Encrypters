@@ -53,6 +53,7 @@ class Square: NSViewController {
     
     @IBAction func encodeBtn(_ sender: Any) {
         messageText = (originalMessageField.stringValue.uppercased()).filter { return latinAlphabet.contains($0) }
+        originalMessageField.stringValue = messageText
         if messageText == "" {
             dialogError(question: "Your message is an empty!", text: "Error: Nothing to encode.")
             return

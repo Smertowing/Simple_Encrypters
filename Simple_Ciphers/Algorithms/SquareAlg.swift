@@ -91,6 +91,7 @@ class SquareAlg {
                 tempString.append(tempMessage.removeFirst())
             }
             cipherText += encryptWithSquare(message: tempString)
+            tempString = ""
         }
         return cipherText
     }
@@ -122,6 +123,7 @@ class SquareAlg {
                 tempString.append(tempMessage.removeFirst())
             }
             messageText += decryptWithSquare(message: tempString)
+            tempString = ""
         }
         return messageText
     }

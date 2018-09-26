@@ -29,6 +29,7 @@ class RailFence: NSViewController {
         browse.canChooseDirectories    = false
         browse.canCreateDirectories    = true
         browse.allowsMultipleSelection = false
+//        browse.directoryURL = URL(fileURLWithPath: "~/test", isDirectory: true)
         browse.allowedFileTypes = ["txt"]
         if (browse.runModal() == NSApplication.ModalResponse.OK) {
             let result = browse.url
