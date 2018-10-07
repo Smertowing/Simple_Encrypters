@@ -2,4 +2,4 @@
 
   - RailFence
   - Vigenere Cipher
-  - A special case of the Cardano Crille (rotating square)
+  - A special case of the Cardano Crille (Rotating Square)
