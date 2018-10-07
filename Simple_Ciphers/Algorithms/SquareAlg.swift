@@ -17,7 +17,7 @@ private extension String {
 class SquareAlg {
     typealias MatrixOfChar = [[Character]]    
     var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    var key = [(0,0),(3,1),(2,2),(1,3)]
+    var key = [(0,0), (3,1), (2,2), (1,3)]
     var length = 4
     
     
