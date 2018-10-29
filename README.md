@@ -34,4 +34,4 @@ Hill's***
 ***4. The multi-alphabet substitution cipher consists of several ciphers.
 easy replacement. For example, cipher Vizhenera, disposable notebook.***
 
-[Alexey Lyapeshkin](https://github.com/AlexeyLyapeshkin)
+Theoretical part by [Alexey Lyapeshkin](https://github.com/AlexeyLyapeshkin)
